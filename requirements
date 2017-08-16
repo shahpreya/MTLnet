@@ -1,0 +1,12 @@
+The following are required to run the scripts:
+pandas
+scipy
+numpy
+matplotlib
+itertools
+copy
+seaborn (https://seaborn.pydata.org)
+bct (https://github.com/aestrivex/bctpy)
+ncat (https://github.com/nangongwubu/Python-Version-for-Network-Community-Architecture-Toobox)
+
+
