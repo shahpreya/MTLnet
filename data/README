@@ -1,0 +1,25 @@
+The provided data is organized into two folders: (1) structural, and (2) functional.
+
+(1) Structural:
+  
+  (a) all_volumes.csv: 
+      - raw gray-matter volumes of each MTL subregion for all subjects
+      - organized as an N X P matrix of values, where N is the number of subregions and P is the number of subjects  
+  
+  (b) all_extents.csv
+      - anterior-posterior extent (in number of slices) of each MTL subregion for all subjects
+      - organized as an N X P matrix of values, where N is the number of subregions and P is the number of subjects
+      - used to normalize the extra-hippocampal regions by A-P extent, as described in our paper and in Yushkevich et al 2015, HBM
+  
+  (c) all_ICV.csv
+      - intracranial volumes for each subject
+      - organized as 1 X P vector, where P is the number of subjects
+      - used to normalize volumes by ICV, as explained in the paper
+
+
+(2) Functional
+      - Each subject's data is in a separate folder
+      - For each subject there are two files: res_tcourse_L.txt and res_tcourse_R.txt. 
+      - Each is organized as an n x T matrix, where n is the number of subregions per hemisphere, and T is the number of time points
+      - Note that the subregions include two subregions per hemisphere that we don't care about (HEAD and MISC), so those rows are discarded upon analysis
+     
