@@ -23,6 +23,6 @@ The provided data is organized into two folders: (1) structural, and (2) functio
       - Note that the subregions include two subregions per hemisphere that we don't care about (HEAD and MISC), so those rows are discarded upon analysis
      
 Note: raw data, which includes T2 images, ASHS segmentations, and resting BOLD-fMRI is provided  at the 
-following dropbox link: https://www.dropbox.com/sh/1ocw0p638qc8zt7/AABt0XbkO4xYWj8HJxo9fN-ta?dl=0 . 
+following dropbox link: https://www.dropbox.com/sh/1ocw0p638qc8zt7/AABt0XbkO4xYWj8HJxo9fN-ta?dl=0 
 For now, a subset of subjects is included due to space limitations. 
 To obtain additional subject data, please email the corresponding author.
