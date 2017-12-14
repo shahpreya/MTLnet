@@ -6,6 +6,6 @@ Welcome! This project carries out core analyses and visualizations for exploring
 
 To get started, open up the IPython notebook "MTLnet" under the "scripts" folder.
 
-This serves as a supplement to our paper in submission at Human Brain Mapping [link to be included upon publication of paper]. Please see paper for details on image acquisition, processing, and analysis.
+This serves as a supplement to our paper in Human Brain Mapping (http://onlinelibrary.wiley.com/doi/10.1002/hbm.23887/abstract). Please see paper for details on image acquisition, processing, and analysis.
 
 MTL segmentation was carried out using the ASHS pipeline (https://sites.google.com/site/hipposubfields/) 
